@@ -203,3 +203,6 @@ header>.btn {
 #box03 .box>ul>li:nth-child(10) {background-image: url(../images/icon/sass.png);}
 #box03 .box>ul>li:nth-child(11) {background-image: url(../images/icon/react.png);}
 #box03 .box>ul>li:nth-child(12) {background-image: none;}
+
+/* box04 */
+#box04 {}
