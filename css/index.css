@@ -256,43 +256,96 @@ header>.btn {
 #box05 {
   background-color: rgb(156, 148, 145);
 }
+
+#box05 h3 {
+  color: #fff;
+}
 #box05>div {
   width: 1113px;
+  margin: 0 auto;
 }
 #box05 .box {
   position: relative;
-  padding-right: 450px;
+  padding-right: 480px;
 }
 #box05 .box>div {
+  height: 466px; /* jquery 해결 */
+}
+#box05 .box>div .title {
+  color: #fff;
+}
+#box05 .box>div .text {
+  line-height: 30px;
   width: 450px;
+  color: #fff;
 }
 #box05 .box>form {
   width: 450px;
-  padding: 25px;
+  padding: 30px 20px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0; top: 0;
   background-color: #fff;
+  box-sizing: border-box;
 }
-#box05 .box>form legend {
-  display: none;
+#box05 .box>form ul>li {
+  margin-bottom: 25px;
 }
-#box05 .box>form input, textarea {
+#box05 .box>form ul>li>label {
   display: block;
+  color: #949494;
+}
+#box05 .box>form ul>li>input {
+  box-sizing: border-box;
   width: 100%;
-  height: 40px;
+  line-height: 40px;
   margin: 0 auto;
   background-color: rgb(234, 228, 228);
   border: none;
   border-radius: 5px;
-  margin-bottom: 25px;
 }
-#box05 .box>form textarea {
+#box05 .box>form ul>li>textarea {
+  box-sizing: border-box;
+  width: 100%;
   height: 120px;
-}
-#box05 .box>form label {
-  color: #949494;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  background-color: rgb(234, 228, 228);
+  border: none;
+  border-radius: 5px;
 }
 
+#box05 .box>form p>input {
+  border: none;
+  background-color: rgb(234, 228, 228);
+  width: 100%;
+  line-height: 43px;
+}
+
+/* aside */
+aside>p.top {
+  position: fixed;
+  right: 22px;
+  bottom: 125px;
+  width: 35px;
+  height: 35px;
+  line-height: 1;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: orange;
+}
+aside .scroll {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+}
+
+/* footer */
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
 
