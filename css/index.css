@@ -205,4 +205,49 @@ header>.btn {
 #box03 .box>ul>li:nth-child(12) {background-image: none;}
 
 /* box04 */
-#box04 {}
+#box04 {
+  background-color: rgb(195, 195, 195);
+  text-align: center;
+}
+#box04 h3 {
+  color: #fff;
+}
+#box04 p.title {
+  color: #fff;
+} 
+#box04 p.text { 
+  line-height: 30px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+#box04 ul {
+  margin-bottom: 40px;
+}
+#box04 ul>li {
+  display: inline-block;
+  padding: 0 20px;
+  border-left: 1px solid #fff;
+}
+#box04 ul>li:first-child{
+  border: none;
+}
+#box04 ul>li>a {
+  color: #fff;
+}
+
+#gallery #all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#gallery figure {
+  /* width: 31%; */
+  width: calc(33% - 46px);
+  margin-bottom: 46px;
+  color: #fff;
+}
+#gallery figure>img {
+  margin-bottom: 25px;
+}
+#gallery p.prev {display: none;}
+#gallery p.next {display: none;}
