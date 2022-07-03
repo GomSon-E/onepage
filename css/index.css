@@ -91,8 +91,12 @@ header>.btn {
 }
 #box01>h3 {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: calc(50% - 305.585px);
+  top: calc(50% - 111px);
+  border: 1px solid #fff;
+  padding: 60px;
+  font: 100 60px 'Raleway', sans-serif;
+  color: #fff;
 }
 #box01>ul {
   width: 400%;
@@ -120,19 +124,44 @@ header>.btn {
 }
 #box01>p.link {
   position: absolute;
-}
-#box01>h3 {
-  border: 1px solid #fff;
-  padding: 60px;
-  font: 100 60px 'Raleway', sans-serif;
-  color: #fff;
-  
-  position: absolute;
-  left: calc(50% - 305.585px);
-  top: calc(50% - 111px);
-}
-#box01>p.link {
-  position: absolute;
   right: 270px;
   bottom: 45px;
+  margin-left: 18px;
 }
+
+/* box02 */
+#box02 {
+  background-color: rgb(232, 232, 232);
+}
+#box02>div {
+  width: 1115px;
+  margin: 0 auto;
+}
+#box02 .box {
+  position: relative;
+  padding-left: 450px;
+}
+#box02 .box>figure {
+  width: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#box02 .box>div p.text{
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+#box02 .box>div p.btn{
+  text-align: right;
+}
+#box02 .box>div p.btn>button{
+  width: 200px;
+  height: 53px;
+  background-color: #949494;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 26px;
+}
+
+
